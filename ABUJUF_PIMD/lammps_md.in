@@ -9,16 +9,16 @@ mass    3   14.007
 mass    4   15.999
 
 pair_style table linear 3000 
-pair_coeff 1 1 ../../pair_potentials/potential.table REPULSIVE_HH 0.751
-pair_coeff 1 2 ../../pair_potentials/potential.table REPULSIVE_HC 1.136
-pair_coeff 1 3 ../../pair_potentials/potential.table REPULSIVE_HN 1.053
-pair_coeff 1 4 ../../pair_potentials/potential.table REPULSIVE_HO 0.988
-pair_coeff 2 2 ../../pair_potentials/potential.table REPULSIVE_CC 1.286
-pair_coeff 2 3 ../../pair_potentials/potential.table REPULSIVE_CN 1.173
-pair_coeff 2 4 ../../pair_potentials/potential.table REPULSIVE_CO 1.144
-pair_coeff 3 3 ../../pair_potentials/potential.table REPULSIVE_NN 1.110
-pair_coeff 3 4 ../../pair_potentials/potential.table REPULSIVE_NO 1.166
-pair_coeff 4 4 ../../pair_potentials/potential.table REPULSIVE_OO 1.230
+pair_coeff 1 1 ../potential.table REPULSIVE_HH 0.75057811
+pair_coeff 1 2 ../potential.table REPULSIVE_HC 1.13612703
+pair_coeff 1 3 ../potential.table REPULSIVE_HN 1.05287832
+pair_coeff 1 4 ../potential.table REPULSIVE_HO 0.98794438
+pair_coeff 2 2 ../potential.table REPULSIVE_CC 1.28612625
+pair_coeff 2 3 ../potential.table REPULSIVE_CN 1.17312072
+pair_coeff 2 4 ../potential.table REPULSIVE_CO 1.14402761
+pair_coeff 3 3 ../potential.table REPULSIVE_NN 1.11005986
+pair_coeff 3 4 ../potential.table REPULSIVE_NO 1.16556024
+pair_coeff 4 4 ../potential.table REPULSIVE_OO 1.23011582
 
 fix 1 all ipi lammps  1234 unix #this is communication with i-PI
 
