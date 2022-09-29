@@ -7,6 +7,18 @@ If you have any questions regarding this tutorial, feel free to send me, Victor 
 
 ## Installation Instructions
 
+### Easy Installation
+
+If you just want everything to work and have conda installed, here's all you need to do:
+
+```
+conda env create -f environment.yml
+conda activate ppp
+jupyter notebook
+```
+
+Otherwise, see below for the necessary and optional packages for this tutorial.
+
 ### Essential Packages
 In order to run the notebook, you must have an environment with some essential packages. Most of these can be installed using
 
