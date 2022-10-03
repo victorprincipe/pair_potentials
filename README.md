@@ -32,7 +32,6 @@ cd librascal
 pip install .
 ```
 
-Lastly, in order to pull the GAP model from this repository, you will need to have Git LFS installed. Please folow the instructions at https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage on how to install it.
 ### Optional software
 
 If you would like to gain the most out of this tutorial, you will also need to compile the following software. More information can be found at the links provided.
@@ -48,9 +47,8 @@ Once you have installed the necessary packages (and the optional ones, if you so
 ```
 git clone https://github.com/victorprincipe/pair_potentials
 cd pair_potentials
+jupyter notebook
 ```
 
-In order to obtain the GAP_model.json file, assuming you have Git LFS installed, you will need to do a `git lfs pull`. Please note that this file is about 250 MB in size.
-
-Finally, you can execute `jupyter notebook`, open the notebook, and enjoy the tutorial! 
+Then you can just open the notebook and enjoy the tutorial! 
 
